@@ -2,6 +2,7 @@
 
 ## Tools Used: (enter when you use them here)
 1. MySQL workbench
+2. DataGrip
 ## Instructions:
 You are asked to create a database structure for online ticketing system (OTS) that sells movie tickets. The functional requirements of the system are listed below:
 - [ ] The system should be able to list cities where its cinemas are located.
