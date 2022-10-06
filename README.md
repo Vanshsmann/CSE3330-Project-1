@@ -23,3 +23,16 @@ Write SQL queries OR use a simple Web interface to get the results of the follow
 - [ ] Given a reservation# list the cinema, movie session, and time where seats were booked.
 - [ ] List the movies with their corresponding time, city, and cinema name.
 - [ ] Given a session time list movie title and session times that do not have any seats available.
+
+## What we need to turn in:
+- [ ] Which tools were used for the project. (Readme file)
+- [ ] ER Diagram
+- [x] Source code of SQL CREATE statements, or screen shots of how you created the tables via one of the tools.
+- [ ] Explain which method you used to load the data into the tables.
+- [ ] Source code of SQL SELECT statements for each query executed, showing the query result; OR screen shots of your simple Web interface that was used to execute the queries and show the query results
+- [ ] Contribution list.
+
+## Contribution List:
+- Alyssa: Created Tables - screenshots from DataGrips
+- Vanshdeep:
+- Sofia:
