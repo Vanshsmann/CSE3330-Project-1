@@ -36,6 +36,6 @@ Write SQL queries OR use a simple Web interface to get the results of the follow
 - [ ] Contribution list.
 
 ## Contribution List:
-Alyssa: Created Tables - screenshots from DataGrips
-Vanshdeep:
-Sofia:
+- Alyssa: Created Tables - screenshots from DataGrips
+- Vanshdeep:
+- Sofia:
