@@ -11,7 +11,7 @@ You are asked to create a database structure for online ticketing system (OTS) t
 - [ ] The system can look up a reservation# and see which seats were booked.
 
 ## Part 1:
-- [ ] Construct a clean and concise ER diagram for the OTS database. List your assumptions and clearly indicate the cardinality mappings.
+- [x] Construct a clean and concise ER diagram for the OTS database. List your assumptions and clearly indicate the cardinality mappings.
 
 ## Part 2:
 Write SQL queries OR use a simple Web interface to get the results of the following queries:
@@ -34,5 +34,5 @@ Write SQL queries OR use a simple Web interface to get the results of the follow
 
 ## Contribution List:
 - Alyssa: Created Tables - screenshots from DataGrips
-- Vanshdeep:
-- Sofia:
+- Vanshdeep: ER Diagram
+- Sofia: ER Diagram
