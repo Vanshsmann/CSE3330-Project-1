@@ -2,3 +2,5 @@
 - SELECT " Movie_title" FROM Movies, City, Screening, Cinema WHERE " City_name" = 'Arlington' and " Cinema_id" = "Cinema_id" and Movies."Movie_id" = Screening."Movie_id" and City_id = " City_id";
 2. List all cinemas that are showing a particular movie.
 - SELECT " Cinema_name" FROM Cinema, Screening WHERE Screening.Movie_id = 3 and Cinema_id = " Cinema_id"
+3. List the seats that are booked in all cinemas for a particular movie.
+- SELECT SeatNum FROM BookTicket WHERE BookTicket.Movie_id = 3;
