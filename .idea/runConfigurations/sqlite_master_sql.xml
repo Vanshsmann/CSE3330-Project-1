@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="sqlite_master.sql" type="DatabaseScript" editBeforeRun="true" singleton="false" nameIsGenerated="true">
+    <data-source id="d49c9552-9a69-4eda-81ca-edaed5d4a6aa" />
+    <script-text>SELECT SeatNum FROM BookTicket WHERE BookTicket.Movie_id = 3;</script-text>
+    <method v="2" />
+  </configuration>
+</component>
