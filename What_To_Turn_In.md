@@ -3,8 +3,8 @@
 2. DataGrip
 
 ## Screenshot of creating tables via DataGrips
-![Screenshot (83)](https://user-images.githubusercontent.com/81663980/194939089-5c1a953b-075f-4305-867f-868f8e821087.png)
-![Screenshot (84)](https://user-images.githubusercontent.com/81663980/194939100-d0af4d66-f137-499f-814e-bf31322c5208.png)
+![Screenshot (85)](https://user-images.githubusercontent.com/81663980/194943354-bc607c10-a13e-4dae-b76d-685e54593955.png)
+![Screenshot (86)](https://user-images.githubusercontent.com/81663980/194943366-50d580da-ed87-4147-9ada-b9c350ec79b2.png)
 
 
  ## Explain which method you used to load the data into the tables.
