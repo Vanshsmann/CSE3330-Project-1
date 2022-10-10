@@ -4,9 +4,8 @@
 - SELECT " Cinema_name" FROM Cinema, Movies, BookTicket WHERE " Movie_title" = 'Vertigo' and Movies.Movie_id = BookTicket.Movie_id and Cinema.Cinema_id = BookTicket.Cinema_id;
 4. List the seats that are booked in all cinemas for a particular movie.
 - SELECT SeatNum FROM BookTicket WHERE BookTicket.Movie_id = 3;
+6. Given a movie and session time how many seats are available.
 
-5. Given a specific cinema and movie list the showing times for that movie.
-?6. Given a movie and session time how many seats are available.  SELECT “Movie_id” FROM Movies, Screening,BookTicket WHERE “Movie_id” = “Gladiator” and Screen_time = “4 pm - 6 pm”
 7. Given a reservation# list the cinema, movie session, and time where seats were booked.
 8. List the movies with their corresponding time, city, and cinema name.
 9. Given a session time list movie title and session times that do not have any seats
