@@ -8,4 +8,4 @@
 
 
 
-6. Given a movie and session time how many seats are available.  SELECT “Movie_id” FROM Movies, Screening,BookTicket WHERE “Movie_id” = “Gladiator” and Screen_time = “4 pm - 6 pm”
+?5. Given a movie and session time how many seats are available.  SELECT “Movie_id” FROM Movies, Screening,BookTicket WHERE “Movie_id” = “Gladiator” and Screen_time = “4 pm - 6 pm”
