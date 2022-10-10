@@ -7,12 +7,10 @@
 
 5. Given a specific cinema and movie list the showing times for that movie.
 
-6. Given a movie and session time how many seats are available.
+6.(UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
 
 7. Given a reservation# list the cinema, movie session, and time where seats were booked.
 8. List the movies with their corresponding time, city, and cinema name.
-9. Given a session time list movie title and session times that do not have any seats
-available.
-
+9.(UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
 
 
