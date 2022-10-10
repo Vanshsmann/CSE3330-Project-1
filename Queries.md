@@ -6,11 +6,9 @@
 - SELECT SeatNum FROM BookTicket, Movies WHERE BookTicket.Movie_id = (SELECT Movie_id FROM Movies WHERE " Movie_title" = 'Vertigo');
 
 5. Given a specific cinema and movie list the showing times for that movie.
-
-6.(UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
-
+6. (UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
 7. Given a reservation# list the cinema, movie session, and time where seats were booked.
 8. List the movies with their corresponding time, city, and cinema name.
-9.(UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
+9. (UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
 
 
