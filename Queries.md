@@ -3,7 +3,7 @@
 3. List all cinemas that are showing a particular movie.
 - SELECT " Cinema_name" FROM Cinema, Movies, BookTicket WHERE " Movie_title" = 'Vertigo' and Movies.Movie_id = BookTicket.Movie_id and Cinema.Cinema_id = BookTicket.Cinema_id;
 4. List the seats that are booked in all cinemas for a particular movie.
-- SELECT SeatNum FROM BookTicket WHERE BookTicket.Movie_id = 3;
+- SELECT SeatNum FROM BookTicket, Movies WHERE BookTicket.Movie_id = (SELECT Movie_id FROM Movies WHERE " Movie_title" = 'Vertigo');
 
 5. Given a specific cinema and movie list the showing times for that movie.
 
