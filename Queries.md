@@ -11,6 +11,8 @@ SELECT SeatNum FROM BookTicket, Movies WHERE BookTicket.Movie_id = (SELECT Movie
 SELECT " Screen_time" FROM Cinema, Movies, Screening WHERE Screening.Movie_id = (SELECT Movies.Movie_id WHERE " Movie_title" = 'Vertigo') and " Cinema_id" = (SELECT Cinema_id WHERE " Cinema_name" = 'Cinemaprism');
 
 ## 6. (UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
+SELECT " Movie_title", SeatNum FROM Movies, BookTicket, Cinema WHERE BookTicket.Cinema_id = (SELECT Cinema.Cinema_id WHERE " Cinema_name" = 'Cinemaprism') and Movies.Movie_id = BookTicket.Movie_id;
+
 ## 7. Given a reservation# list the cinema, movie session, and time where seats were booked.
 ## 8. List the movies with their corresponding time, city, and cinema name.
 ## 9. (UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
