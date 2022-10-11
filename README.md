@@ -26,7 +26,7 @@ Write SQL queries OR use a simple Web interface to get the results of the follow
 
 ## What we need to turn in:
 - [ ] Which tools were used for the project. (Readme file)
-- [ ] ER Diagram
+- [x] ER Diagram
 - [x] Source code of SQL CREATE statements, or screen shots of how you created the tables via one of the tools.
 - [x] Explain which method you used to load the data into the tables.
 - [ ] Source code of SQL SELECT statements for each query executed, showing the query result; OR screen shots of your simple Web interface that was used to execute the queries and show the query results
