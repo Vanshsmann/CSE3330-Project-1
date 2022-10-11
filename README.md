@@ -1,11 +1,15 @@
-## Tools Used: (enter when you use them here)
+## Query Statments & Outputs are in Queries.md
+## ER Diagram is in ER Diagram.md
+
+
+## Tools Used: 
 2. DataGrip
 3. Git
 
 ## Contributions
-Alyssa: Queries, GitHub
-Vanshdeep: ER Diagram, GitHub
-Sofia: ER Diagram, Keys, Queries
+- Alyssa: Queries, GitHub
+- Vanshdeep: ER Diagram, GitHub
+- Sofia: ER Diagram, Keys, Queries
 
 ## Screenshot of creating tables via DataGrips
 ![Screenshot (85)](https://user-images.githubusercontent.com/81663980/194943354-bc607c10-a13e-4dae-b76d-685e54593955.png)
