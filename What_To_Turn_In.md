@@ -1,6 +1,6 @@
 ## Tools Used: (enter when you use them here)
-1. MySQL workbench
 2. DataGrip
+3. Git
 
 ## Screenshot of creating tables via DataGrips
 ![Screenshot (85)](https://user-images.githubusercontent.com/81663980/194943354-bc607c10-a13e-4dae-b76d-685e54593955.png)
@@ -8,4 +8,7 @@
 
 
  ## Explain which method you used to load the data into the tables.
- DataGrip has an option to import from an existing file. We imported each .csv file provided on canvas into the tables created.
+ DataGrip has an option to import from an existing file. We imported each .csv file provided on canvas into the tables created. Then, we went through and set the primary and foreign keys.
+ 
+ ## Outputs of queries
+ 
