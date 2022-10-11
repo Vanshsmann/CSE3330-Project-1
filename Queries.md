@@ -19,10 +19,13 @@ SELECT " Screen_time" FROM Cinema, Movies, Screening WHERE Screening.Movie_id = 
 ![q5](https://user-images.githubusercontent.com/81663980/194986587-8e47f3d0-4e89-4bcf-a4b9-860aa23d286b.jpg)
 
 
-## 6. (UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
-SELECT " Movie_title", SeatNum FROM Movies, BookTicket, Cinema WHERE BookTicket.Cinema_id = (SELECT Cinema.Cinema_id WHERE " Cinema_name" = 'Cinemaprism') and Movies.Movie_id = BookTicket.Movie_id;
+## 6. (UPDATED) Given a session time list the movie titles during that time.
+SELECT " Movie_title"
+FROM Movies, Screening
+WHERE " Screen_time" = '12 pm - 2 pm' and Movies.Movie_id = Screening.Movie_id;
 
-![q6](https://user-images.githubusercontent.com/81663980/194986604-8416b4df-0da4-4780-a9ab-f4d0ac1bbedf.jpg)
+![q6](https://user-images.githubusercontent.com/81663980/194998597-7a30bd55-0bd2-47ff-84f9-921a5c6f92fe.jpg)
+
 
 ## 7. Given a reservation# list the cinema, movie session, and time where seats were booked.
 SELECT " Cinema_name", " Screen_time", SeatNum FROM Cinema, BookTicket, Screening WHERE Screening.Movie_id = (SELECT BookTicket.Movie_id WHERE BT_ID = 1) and " Cinema_id"= (SELECT Cinema_id FROM BookTicket WHERE BT_ID = 1) and " Cinema_name" = (SELECT " Cinema_name" WHERE Cinema.Cinema_id = BookTicket.Cinema_id);
@@ -37,4 +40,5 @@ SELECT " Movie_title", " Screen_time", " City_name", " Cinema_name" FROM Screeni
 ## 9. (UPDATED) Given a cinema name list movie title and seat numbers that are reserved.
 SELECT " Movie_title", SeatNum FROM Movies, BookTicket, Cinema, Screening WHERE BookTicket.Cinema_id = (SELECT Cinema_id FROM Cinema WHERE " Cinema_name" = 'Cinemaprism');
 
-![q9](https://user-images.githubusercontent.com/81663980/194986665-6fea5f7d-14e2-48d5-8785-0bc079d7584b.jpg)
+![q6](https://user-images.githubusercontent.com/81663980/194997941-f429161c-b00c-4f45-87d6-63ad2586cc9e.jpg)
+
